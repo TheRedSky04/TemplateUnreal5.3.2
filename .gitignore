@@ -1,0 +1,48 @@
+#===================================================================
+# DOSSIERS TEMPORAIRES ET DE CACHE D'UNREAL ENGINE (À IGNORER)
+#===================================================================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Sauf vos couleurs de dossiers personnalisées qu'on veut garder !
+!Config/DefaultEditorPerProjectUserSettings.ini
+
+#===================================================================
+# FICHIERS DE CONFIGURATION LOCAUX ET LOGS
+#===================================================================
+*.log
+*.clog
+**/Saved/Logs/
+CrashReportClient/
+
+#===================================================================
+# FICHIERS LIÉS À L'ÉDITEUR ET AUX BUILDS DE CARTES
+#===================================================================
+*_BuiltData.uasset
+
+#===================================================================
+# FICHIERS DE COMPILATION ET D'IDE (Visual Studio, Rider, VS Code)
+#===================================================================
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.bck
+obj/
+bin/
+*.VC.VC.opendb
+
+#===================================================================
+# FICHIERS SYSTÈME (Windows / Mac)
+#===================================================================
+Thumbs.db
+Desktop.ini
+.DS_Store
